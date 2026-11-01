@@ -1,0 +1,85 @@
+{
+  "samples": [
+    {
+      "ammeter_type": "greenlee",
+      "samples": "1_greenlee_samples.csv",
+      "metrics": {
+        "Mean": 0.37338576463407436,
+        "Median": 0.1376851926273751,
+        "Standard deviation": 0.784544032079605,
+        "Min Max": [
+          0.016722959566223813,
+          4.850818611356815
+        ]
+      },
+      "performance": {
+        "coefficient_of_variation_percent": 208.004439610395,
+        "interval_mean_seconds": 0.10000886235918317,
+        "interval_std_seconds": 0.0002353914881140156,
+        "mean_absolute_interval_jitter_seconds": 0.00018687832112215013,
+        "max_absolute_interval_jitter_seconds": 0.0005017757415771429
+      },
+      "samples_count": 50,
+      "plot_paths": [
+        "greenlee-time_series.png"
+      ]
+    },
+    {
+      "ammeter_type": "entes",
+      "samples": "2_entes_samples.csv",
+      "metrics": {
+        "Mean": 71.15186209224028,
+        "Median": 65.75997542482713,
+        "Standard deviation": 43.59217167162604,
+        "Min Max": [
+          15.106782845461701,
+          185.97060509667176
+        ]
+      },
+      "performance": {
+        "coefficient_of_variation_percent": 60.6506238978996,
+        "interval_mean_seconds": 0.10000563154415208,
+        "interval_std_seconds": 0.0001972225685615192,
+        "mean_absolute_interval_jitter_seconds": 0.00015413615168357415,
+        "max_absolute_interval_jitter_seconds": 0.00047335624694824774
+      },
+      "samples_count": 50,
+      "plot_paths": [
+        "entes-time_series.png"
+      ]
+    },
+    {
+      "ammeter_type": "circutor",
+      "samples": "3_circutor_samples.csv",
+      "metrics": {
+        "Mean": 0.03198283319265281,
+        "Median": 0.03469696193847318,
+        "Standard deviation": 0.014441672282292442,
+        "Min Max": [
+          0.00716261200487374,
+          0.0584199656403269
+        ]
+      },
+      "performance": {
+        "coefficient_of_variation_percent": 44.70062447988549,
+        "interval_mean_seconds": 0.10000477031785615,
+        "interval_std_seconds": 0.00020097953996265873,
+        "mean_absolute_interval_jitter_seconds": 0.00016712071944256185,
+        "max_absolute_interval_jitter_seconds": 0.0004366874694824163
+      },
+      "samples_count": 50,
+      "plot_paths": [
+        "circutor-time_series.png"
+      ]
+    }
+  ],
+  "run_id": "db2f2b0e50ea478fbe1e578234a21857",
+  "created_at": "2026-11-01T12:50:23.013653+00:00",
+  "ammeter_types": [
+    "greenlee",
+    "entes",
+    "circutor"
+  ],
+  "total_sample_count": 150,
+  "schema_version": 1
+}

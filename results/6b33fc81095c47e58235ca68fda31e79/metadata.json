@@ -1,0 +1,35 @@
+{
+  "samples": [
+    {
+      "ammeter_type": "greenlee",
+      "samples": "1_greenlee_samples.csv",
+      "metrics": {
+        "Mean": 0.21639981569986136,
+        "Median": 0.10141255359500416,
+        "Standard deviation": 0.30012154023171206,
+        "Min Max": [
+          0.018649377749756026,
+          1.501197385879771
+        ]
+      },
+      "performance": {
+        "coefficient_of_variation_percent": 137.2945562954022,
+        "interval_mean_seconds": 0.10000514497562331,
+        "interval_std_seconds": 0.0002133923642679767,
+        "mean_absolute_interval_jitter_seconds": 0.0001731045392094825,
+        "max_absolute_interval_jitter_seconds": 0.0005575656890869085
+      },
+      "samples_count": 50,
+      "plot_paths": [
+        "greenlee-time_series.png"
+      ]
+    }
+  ],
+  "run_id": "6b33fc81095c47e58235ca68fda31e79",
+  "created_at": "2026-11-01T11:42:29.836007+00:00",
+  "ammeter_types": [
+    "greenlee"
+  ],
+  "total_sample_count": 50,
+  "schema_version": 1
+}

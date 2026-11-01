@@ -1,0 +1,35 @@
+{
+  "samples": [
+    {
+      "ammeter_type": "entes",
+      "samples": "1_entes_samples.csv",
+      "metrics": {
+        "Mean": 62.913502255317034,
+        "Median": 54.948632138881706,
+        "Standard deviation": 35.97698503995564,
+        "Min Max": [
+          11.196597889707942,
+          192.85797876343398
+        ]
+      },
+      "performance": {
+        "coefficient_of_variation_percent": 56.610102516983105,
+        "interval_mean_seconds": 0.10000298947704081,
+        "interval_std_seconds": 0.00019793202990457708,
+        "mean_absolute_interval_jitter_seconds": 0.0001559821926817601,
+        "max_absolute_interval_jitter_seconds": 0.00046429634094238836
+      },
+      "samples_count": 50,
+      "plot_paths": [
+        "entes-time_series.png"
+      ]
+    }
+  ],
+  "run_id": "2d0cab640bb7437ab3a0436189e92c69",
+  "created_at": "2026-11-01T12:04:46.122728+00:00",
+  "ammeter_types": [
+    "entes"
+  ],
+  "total_sample_count": 50,
+  "schema_version": 1
+}
