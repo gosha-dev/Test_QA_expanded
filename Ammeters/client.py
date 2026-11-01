@@ -7,7 +7,8 @@ def request_current_from_ammeter(port: int, command: bytes):
         s.sendall(command)
         data = s.recv(1024)
         if data:
-            print(f"Received current measurement from port {port}: {data.decode('utf-8')} A")
+            pass
+            # print(f"Received current measurement from port {port}: {data.decode('utf-8')} A")
         else:
             print("No data received.")
             raise ValueError("No data received.")  #TODO change to NoDataError exception
